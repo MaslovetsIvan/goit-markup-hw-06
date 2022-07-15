@@ -547,6 +547,7 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    margin-right: 94px;
 }
 .footer-title{
     font-size: 14px;
@@ -572,7 +573,52 @@ footer{
 .footer-container-icon:focus{
     background-color: #2196F3;
 }
+.footer-iner{
+    margin-top: 20px;
+}
+.footer-contaner-input{
+    margin-top: 10px;
+}
+.footer-input{
+    background: #2F303A;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 16px;
+    margin-right: 12px;
 
+}
+.footer-button{
+    background: #2196F3;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    padding: 0;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.84;
+
+
+}
+.footer-icon::after{
+    display: flex;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/icon\ send.svg);
+    margin-left: 10px;
+}
 .backdrop{
     position: fixed;
     top: 0;
