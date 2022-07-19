@@ -695,16 +695,18 @@ footer{
 .form-input:focus{
     border: 1px solid #2196F3
 }
+.form-input:focus + .form-icon{
+    fill: #2196F3;
+}
 
 .form-icon{
     position: absolute;
     left: 14px;
     top: 50%;
+    width: 14px;
+    height: 14px;
     fill: #212121;
     transform: translateY(-50%);
-}
-.form-input:focus + .form-icon{
-    fill: #2196F3;
 }
 
 .modal-field-textarea{
@@ -756,7 +758,7 @@ footer{
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-  }
+}
 .checkbox{
 
     display: flex;
