@@ -388,10 +388,10 @@
 
     </footer>
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button data-modal-close class="modal-close" >
-                <img class="modal-close-img" src="./images/close.svg" alt=""></button>
+                <svg class="modal-close-img"><use href="./images/sprate.svg#icon-close"></use></svg></button>
             <div class="modal-inner">
                 <h3 class="modal-titel">Оставьте свои данные, мы вам перезвоним</h3>
                 <form class="form"name="user-form" autocomplete="on">
@@ -399,16 +399,17 @@
                         <label class="form-label" for="user-neme">Имя</label>
                         <div class="form-inner">
                             <input class="form-input" id="user-neme" type="text" name="neme" placeholder=" "required>
-                            <embed class="form-icon" src="./images/person.svg">
+                            <svg class="form-icon">
+                                <use href="./images/sprate.svg#icon-person"></use>
+                            </svg>
                         </div>
                     </div>
                     <div class="modal-field">
                         <label class="form-label" for="phone-neme">Телефон</label>
                         <div class="form-inner">
                             <input class="form-input" id="phone-neme" type="text" name="phone" placeholder=" "required>
-                            <!--<embed class="form-icon" src="./images/phone.svg">-->
                             <svg class="form-icon">
-                                <use href="./images/phone.svg"></use>
+                                <use href="./images/sprate.svg#icon-phone"></use>
                             </svg>
                         </div>
                     </div>
@@ -416,7 +417,9 @@
                         <label class="form-label" for="user-email">Почта</label>
                         <div class="form-inner">
                             <input class="form-input" id="user-email" type="text" name="email" placeholder=" "required>
-                            <embed class="form-icon" src="./images/email.svg">
+                            <svg class="form-icon">
+                                <use href="./images/sprate.svg#icon-email"></use>
+                            </svg>
                         </div> 
                     </div>
                     <div class="modal-field">
@@ -426,7 +429,7 @@
                     <div class="modal-checkbox checkbox">
                         <div class="checkbox-contaner-icon">
                             <input class="checkbox-input visually-hidden" id="terms-condition" type="checkbox" name="terms-condition" >
-                            <embed class="checkbox-icon" src="./images/icon check.svg">
+                            <svg class="checkbox-icon"><use href="./images/sprate.svg#icon-check"></use></svg>
                         </div>
                         <label class="checkbox-label" for="terms-condition">Соглашаюсь с рассылкой и принимаю <span class="modal-checkbox-span">Условия договора</span> </label>
                     </div>
