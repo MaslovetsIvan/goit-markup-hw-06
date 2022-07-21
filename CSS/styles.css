@@ -706,6 +706,7 @@ footer{
 .form-input:focus{
     border: 1px solid #2196F3;
 }
+
 .form-input:hover,
 .form-input:focus + .form-icon{
     fill: var(--button-COLOR);
@@ -715,8 +716,8 @@ footer{
     position: absolute;
     left: 14px;
     top: 50%;
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     fill: #212121;
     transform: translateY(-50%);
 }
